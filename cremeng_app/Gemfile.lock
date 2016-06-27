@@ -44,8 +44,7 @@ GEM
       execjs (~> 2.0)
 =======
     autoprefixer-rails (6.3.6.2)
-      execjs
->>>>>>> dd39f3fcbf838975ef8364f88f2df9e2d097d7a8
+    
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.3.6)
