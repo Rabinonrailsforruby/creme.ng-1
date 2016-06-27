@@ -1,2 +1,2 @@
 # creme.ng
-Finding and Book Available Stylists near you
+Find and Book Available Stylists near you
