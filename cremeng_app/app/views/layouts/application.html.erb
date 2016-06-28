@@ -15,19 +15,7 @@
 </head>
 <body>
   <%= render 'layouts/navigation' %>
-  <div class="container">
-  	<%= yield %>
-  </div>
-
-  <%= render 'layouts/content' %>
-  <div class="carousel slide container">
-    <%= yield %>
-  </div>
-
+  <%= yield %>
   <%= render 'layouts/footer' %>
-  <div class="navbar-default">
-    <%= yield %>
-  </div>
-
 </body>
 </html>
