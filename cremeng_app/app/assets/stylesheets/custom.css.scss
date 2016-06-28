@@ -24,7 +24,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -49,13 +49,13 @@ body {
     font-size: 100px;
 }
 
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
+/* Welcome to Creme Stylists Panel */
+.panel-default > .panel-heading {
+    color: #FFFFFF;
+    background-color: #FF80B3;
+    border-color: #ddd;
 }
+
 
 
 /* Footer Styles */
@@ -73,7 +73,7 @@ footer {
  }
 
 .bottom-rule {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid white;
 }
 
 @media (min-width: 768px) {
@@ -85,11 +85,23 @@ footer {
  }
 
 footer .list-inline li:not(:first-child):not(:last-child) {
-    border-right: 1px solid lightgray;
+    border-right: 1px solid white;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: wheat;
+}
+
+.text-uppercase, .initialism {
+    text-transform: uppercase;
+    color: wheat;
 }
 
 .navbar-footer {
-    background-color: inherit;
+    background-color: #FFFFFF;
     border-radius: 0;
     border: none;
     margin-bottom: 0;
@@ -100,6 +112,28 @@ footer .navbar .navbar-nav {
     display: inline-block;
     float: none;
     vertical-align: top;
+}
+
+.navbar-default {
+    background-color: #262626;
+    border-color: #FF80B3;
+}
+
+b, strong {
+    font-weight: bold;
+    color: wheat;
+}
+
+p {
+    margin: 0 0 10px;
+    color: white;
+}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    color: white;
 }
 
 .leg-room { margin-bottom: 20px; padding-bottom: 20px; }
