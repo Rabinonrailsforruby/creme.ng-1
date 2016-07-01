@@ -62,22 +62,22 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
             <ul class="dropdown-menu">
                 <li>
-                    <a href="#book-appointment.html">Book an Appointment</a>
+                    <%= link_to "Book my appointments", appointments_path %>
                 </li>
                 <li>
-                    <a href="#payment.html">Payment</a>
+                    <%= link_to "Payment", payment_path %>
                 </li>
                 <li>
-                    <a href="#changes.html">Changes & Cancellation</a>
+                    <%= link_to "Changes and cancellation", changes_and_cancellation_path %>
                 </li>
                 <li>
-                    <a href="#about-stylists.html">About Our Stylists</a>
+                    <%= link_to "About Our Stylists", about_our_stylists_path %>
                 </li>
                 <li>
-                    <a href="#policy.html">Privacy Policy</a>
+                    <%= link_to "Privacy policy", privacy_policy_path %>
                 </li>
                 <li>
-                    <a href="#terms.html">Terms of Use</a>
+                    <%= link_to "Terms of use", terms_of_use_path %>
                 </li>
                 <li>
                   <%= link_to "About / How it Works", about_path %>
