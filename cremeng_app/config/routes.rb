@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :clients
+  devise_for :stylists
   root 'staticpages#home'
 
   get 'about' => 'staticpages#about'
